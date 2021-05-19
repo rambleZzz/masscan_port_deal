@@ -9,7 +9,7 @@ FILE_NAME = 'mtest.json'
 
 def rawparse(rawfile):
     #为避免防火墙策略存活所有端口，alive_port_count参数控制超过多少的个开放端口的IP舍去
-    alive_port_count = 12
+    alive_port_count = 100
     ipdict = {}
     exclude_port_ip = []
     need_port_ip = []
